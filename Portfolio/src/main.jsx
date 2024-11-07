@@ -6,11 +6,10 @@ import './index.css'
 
 import App from './App.jsx'
 import ErrorPage from './pages/ErrorPage.jsx'
-import aboutMe from './pages/aboutMe.jsx'
-import contact from './pages/contact.jsx'
-import portfolio from './pages/portfolio.jsx'
-import resume from './pages/resume.jsx'
-import React from 'react';
+import AboutMe from './pages/aboutMe.jsx'
+import Contact from './pages/contact.jsx'
+import Portfolio from './pages/portfolio.jsx'
+import Resume from './pages/resume.jsx'
 
 const router = createBrowserRouter([
   {
@@ -20,19 +19,19 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <aboutMe />,
+        element: <AboutMe />,
       },
       {
         path: '/contact',
-        element: <contact />,
+        element: <Contact />,
       },
       {
         path: '/portfolio',
-        element: <portfolio />,
+        element: <Portfolio />,
       },
       {
         path: '/resume',
-        element: <resume />,
+        element: <Resume />,
       },
     ],
   },
