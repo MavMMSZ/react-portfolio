@@ -9,7 +9,6 @@ export default function resume() {
                     <li>CSS</li>
                     <li>JavaScript</li>
                     <li>React</li>
-                    <li>jQuery</li>
                 </ul>
                 <h1>Back End Proficencies</h1>
                 <ul>
