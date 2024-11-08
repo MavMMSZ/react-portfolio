@@ -2,7 +2,8 @@ export default function resume() {
     return (
         <><div>
             Download my resume
-        </div><div>
+        </div>
+            <div>
                 <h1>Front End Proficencies</h1>
                 <ul>
                     <li>HTML</li>
