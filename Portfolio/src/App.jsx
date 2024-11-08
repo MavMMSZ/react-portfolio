@@ -2,7 +2,7 @@ import { Outlet } from 'react-router-dom';
 import Nav from './components/Nav';
 
 import Header from './components/header';
-import footer from './components/footer';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <main className="mx-3">
         <Outlet />
       </main>
-      <footer />
+      <Footer />
     </>
   );
 }

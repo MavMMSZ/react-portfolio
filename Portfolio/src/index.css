@@ -9,13 +9,20 @@ header {
 header h1 {
   font-size: 4em;
   margin: 0;
-  padding: 0;
-  color: #333;
 }
 
 main {
-  background-color: #D2D4C8;
+  background-color: #F4F4F4;
   padding: 20px 40px;
-  min-height: 70vh;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  background-color: #D3EFBD;
+  color: #10150d;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+  height: 10vh;
+}
