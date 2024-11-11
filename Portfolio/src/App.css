@@ -1,0 +1,26 @@
+.contact {
+    background-color: #838289;
+    padding: 40px;
+    margin: 0;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.about {
+    background-color: #838289;
+    padding: 40px 40px 370px 40px;
+    margin: 0;   
+}
+
+.port {
+    background-color: #838289;
+    padding: 40px 40px 110px 40px;
+    margin: 0;   
+}
+
+.resume {
+    background-color: #838289;
+    padding: 40px 40px 110px 40px;
+    margin: 0;   
+}

@@ -1,6 +1,6 @@
 header {
-  background-color: #D3EFBD;
-  color: #333;
+  background-image: url(assets/header.jpg);
+  color: #c3c3c3;
   text-align: left;
   padding: 20px 0 0 40px;
   height: 20vh;
@@ -8,14 +8,9 @@ header {
 
 header h1 {
   font-size: 4em;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
 }
 
-main {
-  background-color: #F4F4F4;
-  width: 100%;
-  padding: 20px 40px;
-  
-}
+
 

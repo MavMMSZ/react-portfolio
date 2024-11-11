@@ -2,7 +2,7 @@ import '../styles/contact.css';
 
 export default function Contact() {
     return (
-      <div>
+      <div class='contact'>
         <h1>Contact Me</h1>
         <p>Feel free to reach out to me at maverickmmsc@gmail.com or fill out the form below.</p>
         <form>

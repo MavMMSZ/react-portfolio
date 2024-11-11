@@ -1,4 +1,5 @@
 import { Outlet } from 'react-router-dom';
+import './App.css';
 
 import Nav from './components/Nav';
 import Header from './components/header';
@@ -9,7 +10,7 @@ function App() {
     <>
       <Header />
       <Nav />
-      <main className="mx-3">
+      <main>
         <Outlet />
       </main>
       <Footer />

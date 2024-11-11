@@ -1,10 +1,10 @@
 export default function resume() {
     return (
-        <>
-        <h1>Resume</h1>
-        <div>
-            Download my resume
-        </div>
+        <div class='resume'>
+            <h1>Resume</h1>
+            <div>
+                Download my resume
+            </div>
             <div>
                 <h2>Front End Proficencies</h2>
                 <ul>
@@ -20,6 +20,7 @@ export default function resume() {
                     <li>APIs</li>
                     <li>MySQL</li>
                 </ul>
-            </div></>
+            </div>
+        </div>
     );
 }
