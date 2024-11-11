@@ -3,7 +3,9 @@ export default function resume() {
         <div class='resume'>
             <h1>Resume</h1>
             <div>
-                Download my resume
+                <a href="src/assets/res.webp" target="_blank" rel="noopener noreferrer">
+                    Download my resume
+                </a>
             </div>
             <div>
                 <h2>Front End Proficencies</h2>
