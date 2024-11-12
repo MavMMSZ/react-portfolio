@@ -11,13 +11,12 @@
 
 .portfolio-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columns */
-    grid-gap: 20px; /* Gap between items */
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 20px; 
     padding: 20px;
 }
 
 .project-container {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -27,18 +26,18 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     padding: 10px;
-    width: 100%; /* Ensure the container takes up the full width of the grid cell */
+    width: 100%; 
 }
 
 .image-container {
     position: relative;
-    width: 100%; /* Ensure the image container takes up the full width of the project container */
+    width: 100%; 
 }
 
 .image {
     opacity: 1;
     display: block;
-    width: 100%; /* Ensure the image takes up the full width of the container */
+    width: 100%; 
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
