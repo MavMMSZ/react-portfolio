@@ -1,10 +1,10 @@
 import React from 'react';
-
+import '../styles/about.css';
 
 export default function AboutMe() {
   return (
     <div class='about'>
-      <h1>About Me</h1>
+      <h1><strong>About Me</strong></h1>
       <div class='about-content'> 
       <img class='mav' src='src/assets/mavy.jpg' alt='Maverick Snider' />
       <p class='me'>

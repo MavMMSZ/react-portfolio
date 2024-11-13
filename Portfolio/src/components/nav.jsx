@@ -1,23 +1,22 @@
 import { Link } from 'react-router-dom';
-import Navbar from './UI/navbar';
+import React from 'react';
+import '../styles/nav.css';
 
 export default function Nav() {
   return (
-    <Navbar
-      links={[
-        <Link key={1} className="nav-link text-light" to="/">
+    <div class='nav'> 
+        <Link class='link' key={1} to="/">
           About Me
-        </Link>,
-        <Link key={2} className="nav-link text-light" to="/contact">
+        </Link>
+        <Link class='link' key={2} to="/contact">
           Contact Me
-        </Link>,
-        <Link key={3} className="nav-link text-light" to="/portfolio">
+        </Link>
+        <Link class='link' key={3} to="/portfolio">
           Portfolio
-        </Link>,
-        <Link key={4} className="nav-link text-light" to="/resume">
+        </Link>
+        <Link class='link' key={4} to="/resume">
           Resume
-        </Link>,
-      ]}
-    />
+        </Link>
+    </div>
   );
 }

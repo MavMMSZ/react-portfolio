@@ -26,23 +26,26 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <h1>Contact Me</h1>
+      <h1><strong>Contact Me</strong></h1>
       <p>Feel free to reach out to me at maverickmmsc@gmail.com or fill out the form below.</p>
       <form onSubmit={handleSubmit}>
+        <strong>Name:</strong>
         <input
           type="text"
-          placeholder="Name"
+          placeholder="John Doe"
           value={name}
           onChange={(e) => setName(e.target.value)}
         />
+        <strong>Email Address:</strong>
         <input
           type="email"
-          placeholder="Email"
+          placeholder="yourEmail@website.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
+       <strong>Message:</strong>
         <textarea
-          placeholder="Message"
+          placeholder="Your message here..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
         />
